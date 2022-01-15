@@ -1,0 +1,158 @@
+@font-face {
+    src: url(Fonts/JungleHeroDemoRegular.ttf);
+    font-family: Jungle;
+    
+}
+@font-face {
+    src: url(Fonts/JungleHeroDemoInline.ttf);
+    font-family: JungleL;
+
+}
+@font-face {
+    src: url(Fonts/RobotoMono-VariableFont_wght.ttf);
+    font-family: Roboto;
+}
+.Company{
+    position: absolute;
+    left: 5vw;
+    top: 2vw;
+    color: rgba(0,0,0, 1);
+    margin:0vw;
+    font-family: Jungle;
+    font-size: 5vw;
+
+}
+
+.Title{
+    width: 100vw;
+    height: 10vw; 
+    margin: 0vw;
+    background-color: rgba(153, 255, 153, 0.5); 
+    z-index: 0;
+    position: absolute;
+    overflow: visible;
+}
+.logo{
+  max-height: 100%;
+  min-height: 100%;
+  width: auto ;
+  z-index: 1;
+  position: absolute;
+  left: 50vw;
+  top: 0vw;
+  
+}
+#a{
+    position: absolute;
+    left: 78vw;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.contacts{
+    position: absolute;
+    left: 80vw;
+    top: 10vw;
+    font-family: Roboto;
+    max-height:100% ;
+    min-height: 100%;
+    width:auto;
+
+    }
+    #jelicmail{
+        position: absolute;
+        left:82vw;
+        top: 4vw;
+        font-size: 1vw;
+        color: rgb(114, 226, 161)
+    }
+    #cafutamail{
+        position: absolute;
+        left:82vw;
+        top: 6vw;
+        font-size: 1vw;
+        color: rgb(114, 226, 161)
+    }
+
+body{
+    position:relative;
+    margin: 0vw;
+}
+.Container1{
+    width: 80vw;
+    height: 30vw;
+    background-color: rgba(255, 192, 203, 0.253);
+    position: absolute;
+    top: 20vw;
+    left: 10vw;
+    transition: 1s;
+    overflow: hidden;  
+}
+#cars-text{
+    position: absolute;
+    font-family: JungleL;
+    font-size: 3vw;
+    left: 35vw;
+    top: 10vw;
+    color: black;
+    }
+#Cars-Image
+    
+.Container1:hover{
+    background: lightblue;
+    height: 32vw ;
+    width: 82vw;
+    transform: scale(1.05);
+ }
+ 
+
+.Container2{
+    width: 80vw;
+    height: 30vw;
+    background-color: rgba(192, 255, 224, 0.788);
+    position: absolute;
+    top: 60vw;
+    left: 10vw;
+    transition: 1s;
+
+}
+#map{
+    height: 40vw;
+    width: 40vw;
+    }
+
+.Container2:hover{
+    background: lightblue;
+    height: 32vw ;
+    width: 82vw;
+    transform: scale(1.05);
+ }
+
+#location-text{
+    position: absolute;
+    left: 32vw;
+    font-family: JungleL;
+    font-size: 3vw;
+    top: 10vw;
+}
+.Container3{
+    width: 80vw;
+    height: 30vw;
+    background-color: rgba(255, 217, 192, 0.788);
+    position: absolute;
+    top: 100vw;
+    left: 10vw;
+    transition: 1s;
+}
+#AboutUs-Text{
+    font-family: JungleL;
+    position: absolute;
+    font-size: 3vw;
+    left: 32vw;
+    top: 10vw;
+}
+.Container3:hover{
+    background: lightblue;
+    height: 32vw ;
+    width: 82vw;
+    transform: scale(1.05);
+}
